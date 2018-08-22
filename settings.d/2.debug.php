@@ -1,0 +1,4 @@
+<?
+
+$wgShowExceptionDetails = true;
+$wgShowDBErrorBacktrace = true;
