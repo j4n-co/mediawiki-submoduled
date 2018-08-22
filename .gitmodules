@@ -1,0 +1,12 @@
+[submodule "mediawiki"]
+	path = mediawiki
+	url = https://gerrit.wikimedia.org/r/mediawiki/core
+[submodule "skins/MinervaNeue"]
+	path = skins/MinervaNeue
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue
+[submodule "skins/Vector"]
+	path = skins/Vector
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+[submodule "extensions/MobileFrontend"]
+	path = extensions/MobileFrontend
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend
