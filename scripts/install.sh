@@ -3,6 +3,8 @@
 
 rm ../mediawiki/LocalSettings.php
 
+./create_symlinks.sh
+
 php ../mediawiki/maintenance/install.php localwiki admin \
 --conf=../LocalSettings.php \
 --wiki=$DB_NAME \
