@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <<EOT > ../mediawiki/LocalSettings.php
+cat <<EOT > ../w/LocalSettings.php
 <?php
 
 include_once '../LocalSettings.php';

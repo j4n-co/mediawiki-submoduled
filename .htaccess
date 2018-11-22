@@ -4,7 +4,7 @@
 RewriteEngine On
 
 # Short URL for wiki pages
-RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki/index.php [L]
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/w/index.php [L]
 
 # Redirect / to Main Page
-RewriteRule ^/*$ %{DOCUMENT_ROOT}/mediawiki/index.php [L]
+RewriteRule ^/*$ %{DOCUMENT_ROOT}/w/index.php [L]

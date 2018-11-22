@@ -1,6 +1,6 @@
 <?php
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:5050";
+$wgServer = "http://localhost:80";
 
 
 ## Uncomment this to disable output compression
@@ -15,7 +15,7 @@ $wgMetaNamespace = "Localwiki";
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/mediawiki";        // this should already have been configured this way
+$wgScriptPath = "/w";        // this should already have been configured this way
 $wgArticlePath = "/wiki/$1";
 $wgUsePathInfo = true;
 

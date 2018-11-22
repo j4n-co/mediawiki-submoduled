@@ -15,3 +15,5 @@ $wgMFDisplayWikibaseDescriptions = [
     'tagline' => true,
 ];
 
+$wgMFEnableBeta = true;
+
