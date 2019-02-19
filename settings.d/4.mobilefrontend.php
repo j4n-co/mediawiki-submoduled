@@ -5,7 +5,6 @@ $wgMFAutodetectMobileView = true;
 $wgMFDefaultSkinClass = 'SkinMinerva';
 
 // -- Mobile frontend content --//
-$wgMFNearbyEndpoint = 'https://en.m.wikipedia.org/w/api.php';
 $wgMFContentProviderClass = 'MobileFrontend\ContentProviders\MwApiContentProvider';
 $wgMFMwApiContentProviderBaseUri = 'https://en.m.wikipedia.org/w/api.php';
 $wgMFDisplayWikibaseDescriptions = [
@@ -16,4 +15,17 @@ $wgMFDisplayWikibaseDescriptions = [
 ];
 
 $wgMFEnableBeta = true;
+
+// Nearby feature
+$wgMFNearby = true;
+$wgMFNearbyEndpoint = 'https://en.m.wikipedia.org/w/api.php';
+
+// AMC mode
+$wgMFAdvancedMobileContributions = true;
+
+// Wikidata descriptions
+$wgMFEnableWikidataDescriptions =   [
+	'beta' => false,
+	'base' => false,
+];
 

@@ -4,5 +4,5 @@
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'MinervaNeue' );
 $wgDefaultSkin = "vector";
-# $wgDefaultSkin = 'minerva';
+// $wgDefaultSkin = 'minerva';
 

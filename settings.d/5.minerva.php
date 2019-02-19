@@ -1,5 +1,9 @@
 <?php
 
 $wgMinervaApplyKnownTemplateHacks = 1;
-$wgMinervaPageIssuesTest = false;
-$wgMinervaABSamplingRate = 0;
+$wgMinervaPageIssuesTest = true;
+$wgMinervaABSamplingRate = 1;
+$wgMinervaPageIssuesNewTreatment = [
+	"base" => true,
+	"beta" => true,
+];

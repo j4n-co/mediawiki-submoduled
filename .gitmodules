@@ -1,61 +1,88 @@
 [submodule "mediawiki"]
 	path = w
 	url = https://gerrit.wikimedia.org/r/mediawiki/core
+	branch = master
 [submodule "skins/MinervaNeue"]
 	path = w-dependencies/skins/MinervaNeue
 	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue
+	branch = master
 [submodule "skins/Vector"]
 	path = w-dependencies/skins/Vector
 	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+	branch = master
 [submodule "extensions/MobileFrontend"]
 	path = w-dependencies/extensions/MobileFrontend
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend
+	branch = master
 [submodule "extensions/Interwiki"]
 	path = w-dependencies/extensions/Interwiki
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Interwiki.git
+	branch = master
 [submodule "extensions/Math"]
 	path = w-dependencies/extensions/Math
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math.git
+	branch = master
 [submodule "extensions/Cite"]
 	path = w-dependencies/extensions/Cite
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite
+	branch = master
 [submodule "extensions/Echo"]
 	path = w-dependencies/extensions/Echo
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo
+	branch = master
 [submodule "extensions/EventLogging"]
 	path = w-dependencies/extensions/EventLogging
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/EventLogging
+	branch = master
 [submodule "extensions/Popups"]
 	path = w-dependencies/extensions/Popups
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups
+	branch = master
 [submodule "extensions/WikimediaEvents"]
 	path = w-dependencies/extensions/WikimediaEvents
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikimediaEvents
+	branch = master
 [submodule "extensions/RelatedArticles"]
 	path = w-dependencies/extensions/RelatedArticles
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles
+	branch = master
 [submodule "extensions/GeoData"]
 	path = w-dependencies/extensions/GeoData
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/GeoData
+	branch = master
 [submodule "extensions/VisualEditor"]
 	path = w-dependencies/extensions/VisualEditor
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
+	branch = master
 [submodule "extensions/WikimediaMessages"]
 	path = w-dependencies/extensions/WikimediaMessages
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikimediaMessages
+	branch = master
 [submodule "extensions/PageImages"]
 	path = w-dependencies/extensions/PageImages
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages
+	branch = master
 [submodule "w-dependencies/extensions/TextExtracts"]
 	path = w-dependencies/extensions/TextExtracts
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts.git
+	branch = master
 [submodule "w-dependencies/extensions/Scribunto"]
 	path = w-dependencies/extensions/Scribunto
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto
+	branch = master
 [submodule "w-dependencies/extensions/TemplateStyles"]
 	path = w-dependencies/extensions/TemplateStyles
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles
+	branch = master
 [submodule "w-dependencies/extensions/ParserFunctions"]
 	path = w-dependencies/extensions/ParserFunctions
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
-
+	branch = master
+[submodule "w-dependencies/extensions/ExternalGuidance"]
+	path = w-dependencies/extensions/ExternalGuidance
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ExternalGuidance
+	branch = master
+[submodule "w-dependencies/extensions/UniversalLanguageSelector"]
+	path = w-dependencies/extensions/UniversalLanguageSelector
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector
+	branch = master

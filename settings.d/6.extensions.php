@@ -4,6 +4,15 @@ wfLoadExtension( 'EventLogging' );
 $wgEventLoggingBaseUri = 'http://localhost/event.gif';
 $wgEventLoggingFile = '/var/log/mediawiki/events.log';
 
+/* WikimediaEvents */
+wfLoadExtension( 'WikimediaEvents' );
+// enable readingDepth schema
+$wgWMEReadingDepthEnabled = true;
+$wgWMEReadingDepthSamplingRate = 1;
+
+/** ULS */
+wfLoadExtension( 'UniversalLanguageSelector' );
+
 /** Cite */
 wfLoadExtension( 'Cite' );
 
@@ -14,7 +23,7 @@ wfLoadExtension( 'Echo' );
 wfLoadExtension( 'Interwiki' );
 
 /** Math */
-wfLoadExtension( 'Math' );
+// wfLoadExtension( 'Math' );
 
 /** GeoData */
 wfLoadExtension( 'GeoData' );
@@ -25,12 +34,21 @@ wfLoadExtension( 'PageImages' );
 /** TextExtracts */
 wfLoadExtension( 'TextExtracts' );
 
+/** Extrernal Guidance */
+wfLoadExtension( 'ExternalGuidance' );
+$GLOBALS['wgExternalGuidanceSimulate'] = true;
+$GLOBALS['wgExternalGuidanceMTReferrers'] = [ "translate.google.com", "translate.googleusercontent.com" ];
+
 /** Popups */
 wfLoadExtension('Popups');
 $wgPopupsBetaFeature = true;
 $wgPopupsExperiment = false;
 $wgPopupsHideOptInOnPreferencesPage = true;
 $wgPopupsOptInDefaultState = '1';
+/* live Popups content from enwiki */
+$wgPopupsGateway = "restbaseHTML";
+$wgPopupsRestGatewayEndpoint = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
+
 
 /** Scribunto
  * Set execute permissions for the Lua binaries bundled with this extension:

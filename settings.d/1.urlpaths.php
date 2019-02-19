@@ -1,7 +1,8 @@
 <?php
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:80";
-
+// $wgServer = "https://lazy-dolphin-20.localtunnel.me";
+$wgServer = "http://localhost";
+// $wgInternalServer = "http://localhost:80";
 
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
